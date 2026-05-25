@@ -23,10 +23,10 @@ export default function Navbar({ theme, toggleTheme }) {
   return (
     <header className={`navbar${scrolled ? " navbar--scrolled" : ""}`}>
       <div className="container navbar__inner">
-        {/* Logo */}
+        {/* Logo — SVG horizontal, adapts for light/dark */}
         <a href="#hero" className="navbar__logo">
           <img
-            src="/logo.png"
+            src="/logo.svg"
             alt="InvatiqSoft"
             className={`logo-img logo-img--${theme}`}
           />

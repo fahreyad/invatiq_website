@@ -71,11 +71,16 @@ export default function WhyUs() {
             </p>
           </div>
           <div className="cta-banner__actions">
-            <a href="#contact" className="btn-primary">
-              Book a Demo
+            <a
+              href="https://pos.invatiqsoft.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Try POS Demo
             </a>
             <a
-              href="tel:+000000000"
+              href="tel:+8801672260365"
               className="btn-outline"
               style={{ background: "transparent" }}
             >

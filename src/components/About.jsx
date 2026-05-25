@@ -17,7 +17,7 @@ export default function About() {
         {/* Visual */}
         <div className="about__visual">
           <div className="about__logo-box">
-            <img src="/logo.png" alt="InvatiqSoft" className="about__logo" />
+            <img src="/logo.svg" alt="InvatiqSoft" className="about__logo" />
             <p className="about__tagline">INNOVATE &bull; SOLVE &bull; GROW</p>
           </div>
           <div className="about__stat-pills">

@@ -41,11 +41,15 @@ export default function Contact() {
           <div className="contact__info">
             {[
               { icon: Mail, label: "Email Us", value: "info@invatiqsoft.com" },
-              { icon: Phone, label: "Call Us", value: "+000 000 000 000" },
+              {
+                icon: Phone,
+                label: "Call Us",
+                value: "+880 1672-260365 · +880 1867-254624",
+              },
               {
                 icon: MapPin,
                 label: "Visit Us",
-                value: "Our Office, Your City",
+                value: "Road 2, House 14, Mirpur Section 2, Dhaka",
               },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="contact__info-card">
@@ -79,7 +83,7 @@ export default function Contact() {
                       id="name"
                       name="name"
                       type="text"
-                      placeholder="John Smith"
+                      placeholder="Md. Rahman Hossain"
                       value={form.name}
                       onChange={handleChange}
                       required
@@ -91,7 +95,7 @@ export default function Contact() {
                       id="email"
                       name="email"
                       type="email"
-                      placeholder="john@company.com"
+                      placeholder="rahman@company.com.bd"
                       value={form.email}
                       onChange={handleChange}
                       required
@@ -105,7 +109,7 @@ export default function Contact() {
                       id="company"
                       name="company"
                       type="text"
-                      placeholder="Your Company"
+                      placeholder="Rahim Traders Ltd."
                       value={form.company}
                       onChange={handleChange}
                     />

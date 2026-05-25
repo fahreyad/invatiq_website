@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="footer__top">
           {/* Brand */}
           <div className="footer__brand">
-            <img src="/logo.png" alt="InvatiqSoft" className="footer__logo" />
+            <img src="/logo.svg" alt="InvatiqSoft" className="footer__logo" />
             <p className="footer__brand-text">
               Enterprise software solutions designed to innovate, solve, and
               grow businesses of every size.
